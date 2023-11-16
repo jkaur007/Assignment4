@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Default styles for all devices */
+.gameslist {
+  list-style: none; /* Remove bullet points */
+}
+
+.gameslist li {
+  border-bottom: 1px solid rgb(135, 30, 30)e0e; /* Add border-bottom to list items */
+  padding: 10px; /* Add padding to list items */
+}
+
+.largekitten {
+  display: block; /* Display the image with class .largekitten */
+}
+
+.smallkitten {
+  display: none; /* Hide the image with class .smallkitten */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 480px) {
+  .largekitten {
+    display: none; /* Hide the image with class .largekitten for mobile devices */
+  }
+}
+
+/* Media query for screens with a width of 480 pixels and above */
+@media only screen and (min-width: 480px) {
+  .largekitten {
+    display: none; /* Hide the image with class .largekitten */
+  }
+
+  .smallkitten {
+    display: block; /* Display the image with class .smallkitten */
+  }
+}
+
+/* Media query for screens with a width of 800 pixels and above */
+@media only screen and (min-width: 800px) {
+  .gameslist li {
+    float: left; /* Float the list items of .gameslist to the left */
+    border-bottom: none; /* Remove the border from the bottom */
+    border-right: 1px solid #ccc; /* Add border to the right of each item */
+    background-color: rgb(100, 141, 194);
+    color: aqua;
+  }
+}
+
+/* Media query for screens with a width between 900px and 1200px */
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  h1 {
+   text-align: center;
+  }
+}
+
+/* Media query for screens with a width of 1200 pixels and above */
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 64px; 
+    background-color:beige;
+  }
+body{
+    background-color: gray;
+    color:rgb(105, 35, 171);
+    text-align: center;
+
+
+  }
+}
+</style>
+  <title>Your Webpage Title</title>
+</head>
+<body>
+
+  <div class="container">
+    <img class="largekitten" src="largekitten.jpg" alt="Large Kitten Image">
+    <header>
+    <ul class="gameslist">
+      <li>Main Page</li>
+      <li>Content</li>
+      <li>About Us</li>
+    </ul>
+    </header>
+    <div>
+        <br>
+    <h1> Jasmine kaur</h1>
+    </div>
+  </div>
+  <article>
+    
+    <p>Who doesn’t love candy? Ask anyone about their favorite candy and watch them melt with a smile bigger than their face.
+         The sweet smell of hot chocolate, the explosions of the 
+        multi-colored pops, the milk chocolates embedded with crunchy hazelnuts, the chewing gum that makes big and juicy bubbles,
+         the chocolates wrapped in gold paper which are a mystery to taste, the smooth textured toffee and the mixed fruit lolly
+         . We have them all (No Kidding)! <Br>
+
+        Candy Paradise is North America’s exclusive virtual sweet home. We deliver a wide range of exotic treats from around the world right to your doorstep. 
+        
+        Satisfying your sweet tooth is our priority. 
+        
+        Candy Paradise has over 250 selections of candy that will leave you spoilt for choice. We not only have the latest candies on the market 
+        but also the delicious retro flavors. We import the best quality chocolates from around the world, with unique exotic flavors. <br>
+        
+        Just to make your life a little sweeter, in addition to the fresh candies, we also have cookies and chips from the bests brands in the world. 
+        It doesn’t end there, unlike other candy stores, Candy Paradise also provides Halal and Kosher products. As a cherry on top, our quick shipping 
+        service delivers all the delicacies right to your door.</p>
+
+
+</body>
+</html>
